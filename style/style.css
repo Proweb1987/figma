@@ -1,0 +1,235 @@
+
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --RR: 'Roboto-Regular';
+    --RB: 'Roboto-Bold';
+    --MR: 'Mukta-Regular';
+    --MB: 'Mukta-Bold';
+    --pink: #D23166;
+    --black: #252B42;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul__nav{
+    display: flex;
+    column-gap: 40px;
+   
+}
+.ul__nav{
+    display: flex;
+    
+}
+.nav__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-family: var(--MR);
+}
+
+.nav__btn::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background: chocolate;
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    transition: width 300ms;
+}
+.nav__btn:hover::after{
+    width: 100%;
+}
+  
+.header{
+    background: url(../images/background.png) no-repeat center bottom /cover;
+    height: 100vh;
+  
+}
+.nav__icon i{
+    font-size: 30px;
+    color: white;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100%;
+   row-gap: 20px;
+}
+.header__content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header__content-title{
+    font-size: 74px;
+   line-height: 84px;
+   color: white;
+   font-family: var(--MB);
+   max-width: 672px;
+   width: 100%;
+   text-align: center;
+}
+.header__content-text{
+    font-size: 28px;
+   line-height: 40px;
+   font-family: var(--MR);
+   color: white;
+   opacity: 0.8;
+   max-width: 700px;
+   width: 100%;
+   text-align: center;
+}
+.header__content-btn{
+    background: #2091F9;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: var(--MR);
+    padding: 16px 62px;
+    border-radius: 35px;
+    transition: background 300ms color 300ms;
+}
+.header__content-btn:hover{
+    background: grey;
+    color: khaki;
+}
+.main__top-title{
+    font-size: 48px;
+    line-height: 55px;
+    font-family: var(--MB);
+    color: var(--black);
+   
+}
+.section__main-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+}
+.main__top-text{
+    font-size: 28px;
+    line-height: 40px;
+    color: var(--black);
+    font-family: var(--MR);
+    text-align: center;
+    max-width: 532px;
+    width: 100%;
+}
+.main__item-title{
+    max-width: 195px;
+    width: 100%;
+    font-family: var(--MR);
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+.main__item-text{
+    max-width: 231px;
+    width: 100%;
+    font-family: var(--MR);
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.main__top-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.main__top-box{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+.main__video-img{
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+    
+  
+.section__main-video{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.play__icon{
+    font-size: 60px;
+}
+.main__note-title{
+    font-size: 48px;
+    line-height: 55px;
+     max-width: 400px;
+    font-family: var(--MR);
+    text-align:left;
+    color: var(--black);
+}
+.main__note-text{
+    font-size: 28px;
+   line-height: 40px;
+   font-family: var(--MR); 
+   color: var(--black);
+   max-width: 522px;
+   width: 100%;
+   margin-top: 27px;
+   margin-bottom: 60px;
+}
+.main__note-btn{
+    font-size: 20px;
+   line-height: 28px; 
+   font-family: var(--MR); 
+   font-weight: 700;
+   background: rgb(73, 73, 216);
+   width: max-content;
+   padding: 16px 50px; 
+   border-radius: 30px;
+   color: white;
+}
+.section__partners-title{
+    font-size: 28px;
+    line-height: 40px;  
+    font-family: var(--MB); 
+    text-align: center;
+}
+.section__partners-text{
+    font-size: 28px;
+   line-height: 40px;
+   font-family: var(--MR);
+   
+   max-width: 532px;
+   width: 100%;
+}
+
+
+
+    
+
+
+   
+    
